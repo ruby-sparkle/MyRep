@@ -1,7 +1,7 @@
 version: "2"
 services:
   web:
-    image: myapp
+    image: rubysparkle/myapp
     ports:
       - "3000:3000"
     links:
