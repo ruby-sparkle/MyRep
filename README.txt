@@ -1,3 +1,10 @@
+#I decided to describe in this file not only the docker commands, but all of the shell commands I used.
+#To test the app simply run 'docker-compose up' and perform the http requests to the localhost:
+#curl -X POST -H "Content-type: application/json" http://localhost:3000/data/into/db -d '[ { "a": 1 }, { "b": 2 }, { "c": 3 } ]'
+#curl http://localhost:3000/data/from/db
+
+#the set of actions I did:-------------------------------
+
 #setup my virtual linux machine which I will be running the docker test task on
 vagrant init centos/7
 vagrant up
